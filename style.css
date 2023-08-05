@@ -1,4 +1,47 @@
-/* Centered, round edges. Simple. Matching colors.
- * Cross out animation, fade effect.
- * Colors as a small line or dot at the end of each entry.
-*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: #3f3f3f;
+  /* background: linear-gradient(135deg, #0026a1, #02ffab); */
+  padding: 20px;
+  justify-content: center;
+}
+
+.app {
+  width: 100%;
+  max-width: 540px;
+  justify-content: center;
+
+  background: #c26700;
+  margin: 100px auto 40px;
+  padding: 40px, 30px, 70px;
+  border-radius: 20px;
+}
+
+.app h2 {
+  justify-content: center;
+
+  color: #f8f4f4;
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.task {
+  display: flex;
+  margin: 50px;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  background: #ff880080;
+  border-radius: 25px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
